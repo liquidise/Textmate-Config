@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function chk$1_Create() {
+	\$this-&gt;chk$1 = new QcheckBox(\$this);
+	\$this-&gt;chk$1-&gt;Name = QApplication::Translate("$2");
+	\$this-&gt;chk$1-&gt;Checked = 0;
+}
+</string>
+	<key>name</key>
+	<string>New Checkbox</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>chk</string>
+	<key>uuid</key>
+	<string>DBF749F0-FF65-400D-A6F2-14735FB2AF9C</string>
+</dict>
+</plist>

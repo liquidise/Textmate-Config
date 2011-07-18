@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function pxy$1_Create() {
+	\$this-&gt;pxy$1 = new QControlProxy(\$this);
+	\$this-&gt;pxy$1-&gt;AddAction(new QClickEvent(), new QAjaxAction("pxy$1_Click"));
+}
+
+public function pxy$1_Click(\$strFormId, \$strControlId, \$${2:mixValue}) {
+	$0
+}</string>
+	<key>name</key>
+	<string>New Proxy</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>pxy</string>
+	<key>uuid</key>
+	<string>369A7ACE-7516-4219-B175-CEE339FDDD85</string>
+</dict>
+</plist>

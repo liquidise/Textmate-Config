@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$col$1 = new QActionsColumn(\$this-&gt;dtg$2, QApplication::Translate("Actions"));
+\$col$1-&gt;AddItemAction(QApplication::Translate("Edit"), qact$0, '&lt;?= \$_ITEM ?&gt;');</string>
+	<key>name</key>
+	<string>New QActionsColumn</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qcol</string>
+	<key>uuid</key>
+	<string>2417217A-B9D6-4D9E-8F13-EFD50D03703B</string>
+</dict>
+</plist>

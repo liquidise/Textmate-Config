@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QQ::GreaterThan(QQN::$1()-&gt;$2, $3)</string>
+	<key>name</key>
+	<string>QQ::GreaterThan</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qcond</string>
+	<key>uuid</key>
+	<string>752FC5BD-64D6-438C-A177-40D7500A194A</string>
+</dict>
+</plist>

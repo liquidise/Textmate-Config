@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public static function Virtual$1(QQNode \$objNode, \$strName = '$2') {
+	return QQ::Virtual (\$strName, QQ::SubSql( 
+		"SELECT \`field\` 
+			FROM \`table\`
+			WHERE \`table\`.\`field_name\` = {1}" , \$objNode-&gt;$3));
+}
+</string>
+	<key>name</key>
+	<string>Virtual Function</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>virtual</string>
+	<key>uuid</key>
+	<string>6F2FEAD7-1634-48C3-98E2-C0F926809B8D</string>
+</dict>
+</plist>

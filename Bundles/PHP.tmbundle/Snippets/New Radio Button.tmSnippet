@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function rdo$1_Create() {
+	\$this-&gt;rdo$1 = new QRadioButton(\$this);
+	\$this-&gt;rdo$1-&gt;GroupName = "${3:RadioGroup}";
+	\$this-&gt;rdo$1-&gt;Text = QApplication::Translate("$2");
+}</string>
+	<key>name</key>
+	<string>New Radio Button</string>
+	<key>tabTrigger</key>
+	<string>rdo</string>
+	<key>uuid</key>
+	<string>040DEA12-5A27-4A7D-9713-A33D7D25856A</string>
+</dict>
+</plist>

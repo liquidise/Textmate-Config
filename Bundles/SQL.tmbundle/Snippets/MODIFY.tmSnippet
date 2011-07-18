@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ALTER TABLE \`$1\`
+	MODIFY COLUMN \`$2\` $0</string>
+	<key>name</key>
+	<string>MODIFY</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>modify</string>
+	<key>uuid</key>
+	<string>5D1CC8B5-7347-484B-B471-2AD309D50F4D</string>
+</dict>
+</plist>

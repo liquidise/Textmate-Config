@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>settings.background</key>
+		<string>#222222</string>
+		<key>settings.fontWeight</key>
+		<string>bold</string>
+		<key>settings.foreground</key>
+		<string>#FF5555</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>FFF345C5-D3B4-4975-A610-69CC645FEE7C</string>
+</dict>
+</plist>

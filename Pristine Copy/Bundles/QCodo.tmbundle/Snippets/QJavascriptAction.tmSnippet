@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new QJavaScriptAction("$1")$0</string>
+	<key>name</key>
+	<string>QJavascriptAction</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qact</string>
+	<key>uuid</key>
+	<string>B9B44778-2E08-4F96-B853-E750B39CCEF3</string>
+</dict>
+</plist>

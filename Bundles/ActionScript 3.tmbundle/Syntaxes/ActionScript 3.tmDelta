@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>repository.language-keywords.patterns</key>
+		<array>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - keyword.top-level.property</string>
+				<key>match</key>
+				<string>\b(prototype)\b</string>
+				<key>name</key>
+				<string>keyword.top-level.property.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - statements</string>
+				<key>match</key>
+				<string>\b(if|else|while|do|for|each|in|case|switch|do|default|with)\b</string>
+				<key>name</key>
+				<string>keyword.control.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - statements</string>
+				<key>match</key>
+				<string>\b(try|catch|finally|throw)\b</string>
+				<key>name</key>
+				<string>keyword.control.catch-exception.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - statements</string>
+				<key>match</key>
+				<string>\b(exit|return|break|continue)\b</string>
+				<key>name</key>
+				<string>keyword.control.end.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>match</key>
+				<string>\b(as|delete|new|is|typeof)\b</string>
+				<key>name</key>
+				<string>keyword.operator.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - keyword.attribute</string>
+				<key>match</key>
+				<string>\b(dynamic|final|internal|native|override|private|protected|public|static)\b</string>
+				<key>name</key>
+				<string>keyword.scope.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - keyword.special-type</string>
+				<key>match</key>
+				<string>\b(\*|Null|void)\b</string>
+				<key>name</key>
+				<string>keyword.special-type.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>match</key>
+				<string>\binstanceof\b</string>
+				<key>name</key>
+				<string>invalid.illegal.deprecated.actionscript.3</string>
+			</dict>
+		</array>
+		<key>repository.language-storage.patterns</key>
+		<array>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - keyword.directive.</string>
+				<key>match</key>
+				<string>(\buse\s+namespace\b)|(\bdefault\s+xml\s+namespace\b)</string>
+				<key>name</key>
+				<string>storage.modifier.namespace.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>match</key>
+				<string>\b(AS3|flash_proxy|object_proxy)\b</string>
+				<key>name</key>
+				<string>keyword.namespace.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>include</key>
+				<string>#language-include</string>
+			</dict>
+			<dict>
+				<key>match</key>
+				<string>\#include\b</string>
+				<key>name</key>
+				<string>invalid.illegal.deprecated.actionscript.3</string>
+			</dict>
+			<dict>
+				<key>comment</key>
+				<string>AS3 Definition - keyword.definition</string>
+				<key>match</key>
+				<string>\b(\.\.\.|class|const|extends|function|get|implements|interface|package|set|namespace|var)\b</string>
+				<key>name</key>
+				<string>storage.type.actionscript.3</string>
+			</dict>
+		</array>
+		<key>repository.method.beginCaptures.3.name</key>
+		<string>keyword.type.namespace.actionscript.3</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>8D062380-64F5-473D-ABB7-0F5E034BB1F8</string>
+</dict>
+</plist>

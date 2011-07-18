@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+$file = file_get_contents( "php://stdin" );
+
+$file = preg_replace( '/\n\s+\n/', "\n\n", $file );
+$file = preg_replace( '/    /', '	', $file );
+$file = preg_replace( '/(\S)\s+\n/', '$1\n', $file );
+
+echo $file
+?&gt;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^~@w</string>
+	<key>name</key>
+	<string>Delete Empty Whitespace Lines</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>3BF84FBC-668B-450A-9B7C-395AE5C19B41</string>
+</dict>
+</plist>

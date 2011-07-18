@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>varchar(${1:128}) collate utf8_unicode_ci ${2:NULL}$0</string>
+	<key>name</key>
+	<string>varchar</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>varchar</string>
+	<key>uuid</key>
+	<string>96EBDDC9-86C8-466F-BE11-B1AE4636520F</string>
+</dict>
+</plist>

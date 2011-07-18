@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function lst$1_Create() {
+	\$this-&gt;lst$1 = new QListBox(\$this);
+	\$this-&gt;lst$1-&gt;Name = QApplication::Translate("$2");
+	\$this-&gt;lst$1-&gt;AddItem("- ".QApplication::Translate("Select One")." -", null);
+
+	$0
+}</string>
+	<key>name</key>
+	<string>New ListBox</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>lst</string>
+	<key>uuid</key>
+	<string>9A71ECE3-5F69-4B81-8009-AAB341E4B6FA</string>
+</dict>
+</plist>

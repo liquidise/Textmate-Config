@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QPostMessage::DisplayMessage()</string>
+	<key>name</key>
+	<string>QAjaxMessage::DisplayMessage</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qajax</string>
+	<key>uuid</key>
+	<string>A6A0FDD3-12EA-4E0E-9DFF-13D440364153</string>
+</dict>
+</plist>

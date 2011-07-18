@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function lnk$1_Create() {
+	\$this-&gt;lnk$1 = new QLinkButton(\$this);
+	\$this-&gt;lnk$1-&gt;Text = QApplication::Translate("$2");
+	\$this-&gt;lnk$1-&gt;AddAction(new QClickEvent(), new QAjaxAction("lnk$1_Click"));
+}
+
+public function lnk$1_Click() {
+	$3
+}</string>
+	<key>name</key>
+	<string>New Link Button</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>lnk</string>
+	<key>uuid</key>
+	<string>0E076B7A-2CC0-4554-8B5B-E1BDEB2F8888</string>
+</dict>
+</plist>

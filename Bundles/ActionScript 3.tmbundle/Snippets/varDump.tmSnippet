@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ErrorUtils.logMessage( ErrorUtils.varDump($0) );</string>
+	<key>name</key>
+	<string>varDump</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>dump</string>
+	<key>uuid</key>
+	<string>30EBD09E-ECA6-4D8D-93BA-2F30E218D9BB</string>
+</dict>
+</plist>

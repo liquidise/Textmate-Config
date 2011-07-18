@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function __set(\$strName, \$mixValue) {
+	switch(\$strName) {
+		case '$1':
+			$0
+			break;
+		default:
+			try {
+				parent::__set(\$strName, \$mixValue);
+			} catch (QCallerException \$objExc) {
+				\$objExc-&gt;IncrementOffset();
+				throw \$objExc;
+			}
+	}
+}</string>
+	<key>name</key>
+	<string>__set()</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>set</string>
+	<key>uuid</key>
+	<string>DF080246-3D97-4E70-91AC-32B3356DD06E</string>
+</dict>
+</plist>

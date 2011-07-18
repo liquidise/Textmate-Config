@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QQ::AndCondition(qcond$0, qcond)</string>
+	<key>name</key>
+	<string>QQ::AndCondition</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qcond</string>
+	<key>uuid</key>
+	<string>402538AB-191B-4093-AD03-B90B2A6DF975</string>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string># This command passes the script to Ruby via a heredoc, rather than using a shebang.
+# The reason for this is so that .textmate_init is sourced, which IMO is the nicest place to set PHP_INCLUDE_PAT
+# However passing the heredoc axes the document STDIN from TextMate, so here we redirect the original STDIN to
+# file descriptor 3, to be later read from the Ruby script
+ruby 3&gt;&amp;0 &lt;&lt;-'RUBY'
+  require ENV["TM_SUPPORT_PATH"] + "/lib/ui.rb"
+  require ENV["TM_SUPPORT_PATH"] + "/lib/textmate.rb"
+
+  options = []
+
+  if ENV['TM_CURRENT_LINE'] =~ /["']([\w\/]*\.tpl)["']/
+    options &lt;&lt; "../templates" + $1
+  else
+    IO.open(3, 'r') do |document| # This reads the TextMate document from file descriptor 3, as describe above
+      document.read.scan(/["']([\w\/]*\.tpl)["']/).each do |path|
+        path[0] = "../templates" + path[0]
+        options &lt;&lt; path[0] unless path[0].include?('$') # Skip dynamic includes
+      end
+    end
+  end
+
+  abort "No includes found" if options.empty?
+
+  file = ''
+  if options.size &gt; 1
+    abort unless choice = TextMate::UI.menu(options)
+    file = options[choice]
+  else
+    file = options.pop
+  end
+
+  paths = []
+  paths &lt;&lt; ENV["TM_DIRECTORY"] + "/../"
+  paths &lt;&lt; ENV["TM_DIRECTORY"] + "/../../"
+
+  paths.each do |path|
+    expanded_path = File.expand_path(file, path)
+    if File.exists?(expanded_path)
+      TextMate.go_to :file =&gt; expanded_path
+      exit
+    end
+    puts "PATH" + expanded_path
+  end
+  puts "File not found: #{file}"
+RUBY
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^t</string>
+	<key>name</key>
+	<string>Jump To Template Files</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>40A809AB-75CC-49EE-B4EE-4619C43E9F90</string>
+</dict>
+</plist>

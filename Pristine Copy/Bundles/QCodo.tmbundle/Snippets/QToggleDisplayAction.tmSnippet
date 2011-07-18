@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new QToggleDisplayAction(\$${1:objControl}${2:, true})$0</string>
+	<key>name</key>
+	<string>QToggleDisplayAction</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qact</string>
+	<key>uuid</key>
+	<string>1C972E4A-61DD-4E3C-AFD6-87A1322AF26C</string>
+</dict>
+</plist>

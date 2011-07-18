@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QPostMessage::InvalidIdRedirect(QApplication::Translate("No $1 record exists with the $1Id:") . " {\$$2}");</string>
+	<key>name</key>
+	<string>QPostMessage::InvalidIdRedirect</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qpost</string>
+	<key>uuid</key>
+	<string>874A03AC-EBCC-4B2C-92AA-95E06043B581</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ALTER TABLE \`$1\` $0</string>
+	<key>name</key>
+	<string>ALTER TABLE</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>alter</string>
+	<key>uuid</key>
+	<string>7E5F2084-AA29-4E75-AEF6-339CC9C7EDEE</string>
+</dict>
+</plist>

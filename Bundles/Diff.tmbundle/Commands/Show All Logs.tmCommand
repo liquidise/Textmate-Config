@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>egrep -v '^(\+\+\+|---) '|\
+  tee &gt;(flashLogs=$(grep ^\+.*ErrorUtil |wc -l);  echo 1&gt;&amp;2 "Flash Logs Added   $flashLogs") \
+     |{ phpLogs=$(grep ^\+.*syslog |wc -l); wait; echo 1&gt;&amp;2 "PHP Logs Added   $phpLogs"; }</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^@l</string>
+	<key>name</key>
+	<string>Show All Logs</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.diff</string>
+	<key>uuid</key>
+	<string>26E31D66-3194-498A-8E62-65168CDA08DE</string>
+</dict>
+</plist>

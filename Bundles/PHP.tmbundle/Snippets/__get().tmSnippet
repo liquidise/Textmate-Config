@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function __get(\$strName) {
+	switch(\$strName) {
+		case '$1':
+			$0
+		default:
+			try {
+				return parent::__get(\$strName);
+			} catch (QCallerException \$objExc) {
+				\$objExc-&gt;IncrementOffset();
+				throw \$objExc;
+			}
+	}
+}</string>
+	<key>name</key>
+	<string>__get()</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>get</string>
+	<key>uuid</key>
+	<string>A692EF1D-620C-47ED-8082-CABE2EF48326</string>
+</dict>
+</plist>

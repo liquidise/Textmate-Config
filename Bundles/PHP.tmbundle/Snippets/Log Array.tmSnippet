@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>syslog( LOG_DEBUG, print_r($0, true) );</string>
+	<key>name</key>
+	<string>Log Array</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>logr</string>
+	<key>uuid</key>
+	<string>6391E878-C9F2-4102-9085-5F1E2073D719</string>
+</dict>
+</plist>

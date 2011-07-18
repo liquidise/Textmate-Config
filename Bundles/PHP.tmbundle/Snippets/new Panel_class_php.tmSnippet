@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require_once 'prepend.inc.php';
+
+class $1Panel extends QPanel {
+	const TEMPLATE		= '/qualvu/panel/${2:$1}.tpl';
+
+	public function __construct(\$objParent, \$strControlId = null) {
+		parent::__construct(\$objParent, \$strControlId);
+		\$this-&gt;Template = __TEMPLATES__ . self::TEMPLATE;
+
+		$0
+	}
+}</string>
+	<key>name</key>
+	<string>new Panel.class.php</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>panel</string>
+	<key>uuid</key>
+	<string>B79B4BCA-F99C-4588-A984-E9D35A91AAE5</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>EMessage::SendErrorEmail("${1:Message}", "${2:Subject}");</string>
+	<key>name</key>
+	<string>EMessage::SendErrorEmail</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>error</string>
+	<key>uuid</key>
+	<string>9760E2E1-B7F1-4F24-9F6A-5D345C734719</string>
+</dict>
+</plist>

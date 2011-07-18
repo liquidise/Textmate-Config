@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Console::StartSpeedTest();</string>
+	<key>name</key>
+	<string>Console::StartSpeedTest</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>console</string>
+	<key>uuid</key>
+	<string>E2001F23-1F18-446D-8D57-C22A8AD9A1EE</string>
+</dict>
+</plist>

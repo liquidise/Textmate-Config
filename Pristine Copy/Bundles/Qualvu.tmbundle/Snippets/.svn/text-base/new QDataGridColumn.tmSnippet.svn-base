@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$col${1:Name} = new QDataGridColumn('${2:Column Title}');
+\$col${1}-&gt;Html = '&lt;?= \$_ITEM-&gt;${3:FieldName} ?&gt;';
+\$col${1}-&gt;OrderByClause = QQ::OrderBy(QQN::${4});
+\$col${1}-&gt;ReverseOrderByClause = QQ::OrderBy(QQN::${4}, false);</string>
+	<key>name</key>
+	<string>new QDataGridColumn</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qcol</string>
+	<key>uuid</key>
+	<string>8AD9526E-61CC-46AD-AE42-F3DA03856D31</string>
+</dict>
+</plist>

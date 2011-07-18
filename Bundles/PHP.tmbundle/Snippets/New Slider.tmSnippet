@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function sld$1_Create() {
+	\$this-&gt;sld$1 = new QSlider(\$this, QSliderMode::SingleHandle, ${2:0}, ${3:maxValue}, 1, 1, "hdn$1");
+	\$this-&gt;sld$1-&gt;Value = ${4:1};
+}
+</string>
+	<key>name</key>
+	<string>New Slider</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>sld</string>
+	<key>uuid</key>
+	<string>7641EFAC-314F-4A09-A63B-31A2CDC46A94</string>
+</dict>
+</plist>

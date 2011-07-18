@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function lbl$1_Create() {
+	\$this-&gt;lbl$1 = new QLabel(\$this);
+	\$this-&gt;lbl$1-&gt;Text = ${2:QApplication::Translate("$0")};
+}</string>
+	<key>name</key>
+	<string>New Label</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>lbl</string>
+	<key>uuid</key>
+	<string>EC5FCCE6-7E6F-4DF4-B65C-B06DA2BD39CA</string>
+</dict>
+</plist>

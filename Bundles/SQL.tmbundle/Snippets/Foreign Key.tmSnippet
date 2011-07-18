@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CONSTRAINT \`$1_$2_fk\` 
+	FOREIGN KEY (\`$2_id\`) REFERENCES \`$2\` (\`$2_id\`) 
+	ON DELETE NO ACTION ON UPDATE NO ACTION</string>
+	<key>name</key>
+	<string>Foreign Key</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>fk</string>
+	<key>uuid</key>
+	<string>1957D02B-6807-48CA-9563-342E03B15709</string>
+</dict>
+</plist>

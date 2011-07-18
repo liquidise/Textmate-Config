@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function act$1_Create() {
+	\$this-&gt;act$1 = new QAjaxAutoCompleteTextBox(\$this);
+	\$this-&gt;act$1-&gt;Name = QApplication::Translate("$2");
+	\$this-&gt;act$1-&gt;Columns = 40;
+	\$this-&gt;act$1-&gt;MinChars = 2;
+	\$this-&gt;act$1-&gt;Required = false;
+	\$this-&gt;act$1-&gt;MustMatch = true;
+	\$this-&gt;act$1-&gt;MultipleSeparator = "&lt;&gt;";
+	\$this-&gt;act$1-&gt;SetSearchQueryBinder('act$1_Search');
+	\$this-&gt;act$1-&gt;ItemValueHtml = '&lt;?= \$_ITEM-&gt;${3:Id} ?&gt;';
+	\$this-&gt;act$1-&gt;ItemTextHtml = '&lt;?= \$_ITEM-&gt;${4:Name} ?&gt;';
+	\$this-&gt;act$1-&gt;ItemAdditionalHtml = '&lt;br&gt;&lt;span style="font-size:85%"&gt;&lt;?= \$_ITEM-&gt;${5:Description} ?&gt;&lt;/span&gt;';
+}
+
+public function act$1_Search(\$strParam) {
+	$0
+}</string>
+	<key>name</key>
+	<string>New AutoComplete</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>act</string>
+	<key>uuid</key>
+	<string>B295B596-E1D1-4A69-9E60-98A11ED18E30</string>
+</dict>
+</plist>

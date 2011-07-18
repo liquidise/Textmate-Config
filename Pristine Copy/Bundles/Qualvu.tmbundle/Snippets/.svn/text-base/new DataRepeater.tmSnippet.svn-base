@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function dtr$1_Create() {
+	\$this-&gt;dtr$1 = new QDataRepeater(\$this);
+	\$this-&gt;dtr$1-&gt;Template = __TEMPLATES__ . "/qualvu/dtr_tpl/$1.tpl";
+	\$this-&gt;dtr$1-&gt;DataSource = \$this-&gt;${2:Array};
+}</string>
+	<key>name</key>
+	<string>new DataRepeater</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qdtr</string>
+	<key>uuid</key>
+	<string>29155D4E-7418-462A-8597-AB424469F98F</string>
+</dict>
+</plist>

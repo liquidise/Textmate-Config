@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>private function txt$1_Create() {
+	\$this-&gt;txt$1 = new QTextBox(\$this, 'txt$1');
+	\$this-&gt;txt$1-&gt;Required = true;
+	\$this-&gt;txt$1-&gt;MaxLength = 256;
+	\$this-&gt;txt$1-&gt;Text = "";
+}</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>D4857B45-3866-4F47-9F30-3DE51EC4D5EF</string>
+</dict>
+</plist>

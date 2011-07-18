@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>deleted</key>
+	<array>
+		<string>8A4DA838-4F49-46CA-A991-ADD2D6A6775D</string>
+		<string>29155D4E-7418-462A-8597-AB424469F98F</string>
+		<string>6F2FEAD7-1634-48C3-98E2-C0F926809B8D</string>
+	</array>
+	<key>name</key>
+	<string>Ben Roux’s Bundle</string>
+	<key>ordering</key>
+	<array>
+		<string>1F42ED93-5FA1-40B0-88E8-7F6BBD265CDA</string>
+		<string>2B280CFE-1DB9-4830-A3CB-C9AC7AA3C563</string>
+	</array>
+	<key>uuid</key>
+	<string>ADFF5FAF-9488-46A1-985C-244715D0CDAB</string>
+</dict>
+</plist>

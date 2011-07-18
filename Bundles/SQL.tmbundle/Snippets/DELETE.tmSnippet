@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DELETE FROM \`$1\` ${2:WHERE $3};</string>
+	<key>name</key>
+	<string>DELETE</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>delete</string>
+	<key>uuid</key>
+	<string>AF444888-721A-49CB-8867-62486F95C79A</string>
+</dict>
+</plist>

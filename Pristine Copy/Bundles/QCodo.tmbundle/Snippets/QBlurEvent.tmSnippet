@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new QBlurEvent(), $0</string>
+	<key>name</key>
+	<string>QBlurEvent</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qevt</string>
+	<key>uuid</key>
+	<string>CE98DEED-9824-44EF-84D7-CA83A23C60FA</string>
+</dict>
+</plist>

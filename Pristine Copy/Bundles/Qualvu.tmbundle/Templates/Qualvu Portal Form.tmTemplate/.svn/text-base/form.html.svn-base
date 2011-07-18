@@ -1,0 +1,23 @@
+<?php
+include('prepend.inc.php');
+require('qualvu/QualvuMainForm.class.php');
+require('qualvu/panel/QVRBNavPanel.class.php');
+
+class ${TM_UCASE_BASENAME}Form extends QualvuMainForm {
+	protected $pnlNav;
+
+	protected function Permission_Validate() {
+		//if (!$this->objUser->HasPermission('', 'view', Context::Main)) {
+		//	QApplication::Redirect('/account/projects');
+		//}
+	}
+
+	protected function Form_Create() {
+		parent::Form_Create(true);
+
+		$this->pnlNav = new QVRBNavPanel($this, QVRBNavPanel::HOME_TAB, null);
+	}
+}
+
+${TM_UCASE_BASENAME}Form::Run('${TM_UCASE_BASENAME}Form', __TEMPLATES__ . '/qualvu/account/${TM_NEW_FILE_BASENAME}.tpl');
+?>

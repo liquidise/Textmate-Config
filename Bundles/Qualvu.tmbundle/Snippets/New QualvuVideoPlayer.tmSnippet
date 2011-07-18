@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function qvp$1_Create() {
+	\$this-&gt;qvp$1 = new QualvuVideoPlayer(\$this, "qvp$1");
+	\$this-&gt;qvp$1-&gt;Width = 348;
+	\$this-&gt;qvp$1-&gt;AutoPlay = false;
+	\$this-&gt;qvp$1-&gt;VideoUrl = ${0:\$this-&gt;objVideo-&gt;VideoUrl};
+}</string>
+	<key>name</key>
+	<string>New QualvuVideoPlayer</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qvp</string>
+	<key>uuid</key>
+	<string>F6531478-6C7A-4E9D-90A8-408E0D1B3D3B</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>private function lbl$1_Create() {
+	\$this-&gt;lbl$1 = new QLabel(\$this, "lbl$1");
+	\$this-&gt;lbl$1-&gt;Text = ${2:QApplication::Translate("$0")};
+}</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>EC5FCCE6-7E6F-4DF4-B65C-B06DA2BD39CA</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>CREATE TABLE \`$1\` (
+	\`$1_id\` int(10) unsigned NOT NULL auto_increment,
+	\`insert_dt\` timestamp NOT NULL DEFAULT '2008-01-01 00:00:00',
+	\`update_dt\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+	
+	PRIMARY KEY(\`$1_id\`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+DELIMITER ||
+CREATE TRIGGER \`$1_insert\` BEFORE INSERT
+ON \`$1\` FOR EACH ROW
+BEGIN
+  SET NEW.insert_dt = NOW();
+END; ||
+DELIMITER ;</string>
+	<key>name</key>
+	<string>CREATE TABLE</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>create</string>
+	<key>uuid</key>
+	<string>D57B8D5B-B32F-41C0-B7E0-487AFCC2714E</string>
+</dict>
+</plist>

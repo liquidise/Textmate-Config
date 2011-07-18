@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleUUID</key>
+	<string>154B6C4C-7A81-443A-BF73-CF79590624BE</string>
+	<key>content</key>
+	<string>&lt;?php \$this-&gt;$1-&gt;RenderQV(); ?&gt;</string>
+	<key>name</key>
+	<string>RenderQV $this</string>
+	<key>tabTrigger</key>
+	<string>rqv</string>
+	<key>uuid</key>
+	<string>C4FEAB07-0B76-45FD-AA34-C9715E81B7B6</string>
+</dict>
+</plist>

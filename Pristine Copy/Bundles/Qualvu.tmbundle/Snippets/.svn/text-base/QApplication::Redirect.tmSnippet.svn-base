@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QApplication::Redirect("/account/${1:projects}");</string>
+	<key>name</key>
+	<string>QApplication::Redirect</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qapp</string>
+	<key>uuid</key>
+	<string>8E62EB0D-768E-4017-A934-FF16337D90B8</string>
+</dict>
+</plist>

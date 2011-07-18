@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>UPDATE \`$1\` SET \`$2\` = $3 WHERE $0;</string>
+	<key>name</key>
+	<string>UPDATE</string>
+	<key>scope</key>
+	<string>source.sql</string>
+	<key>tabTrigger</key>
+	<string>update</string>
+	<key>uuid</key>
+	<string>622B5A33-19BE-4059-88E4-3D72AD757111</string>
+</dict>
+</plist>

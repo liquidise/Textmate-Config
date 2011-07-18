@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QAjaxMessage::SaveMessage(QApplication::Translate("${1:Changes Saved}"));</string>
+	<key>name</key>
+	<string>QAjaxMessage::SaveMessage</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qajax</string>
+	<key>uuid</key>
+	<string>3292E400-709C-4CF9-8488-9DCC04C303FB</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QApplication::Translate("$1")$0</string>
+	<key>name</key>
+	<string>QApplication::Translate</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qapp</string>
+	<key>uuid</key>
+	<string>D1F5097C-7B43-4526-B8AA-F31AE2A4053B</string>
+</dict>
+</plist>

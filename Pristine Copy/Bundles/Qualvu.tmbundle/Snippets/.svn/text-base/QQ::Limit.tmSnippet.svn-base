@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>QQ::LimitInfo($1)</string>
+	<key>name</key>
+	<string>QQ::Limit</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>qcla</string>
+	<key>uuid</key>
+	<string>F8BAA419-633D-47CE-92D9-725330544DAE</string>
+</dict>
+</plist>
