@@ -40,7 +40,7 @@
 		</dict>
 	</array>
 	<key>keyEquivalent</key>
-	<string>@s</string>
+	<string>@S</string>
 	<key>name</key>
 	<string>Strip And Save</string>
 	<key>uuid</key>
