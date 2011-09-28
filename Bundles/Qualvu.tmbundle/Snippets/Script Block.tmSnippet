@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>proc_nice(5);
+ini_set('include_path', dirname(__FILE__) . '/../../includes');
+ini_set('memory_limit', '256M');
+require_once('prepend.inc.php');
+
+\$fp = fopen(__LOG_DIR__ . '/${TM_FILENAME}.log' , 'a');
+fwrite(\$fp, "\n=====================" . date('r') . "=====================\n");
+
+$0</string>
+	<key>name</key>
+	<string>Script Block</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>script</string>
+	<key>uuid</key>
+	<string>C84CDD9F-6E70-4BB5-955D-C7BA7F1A9B88</string>
+</dict>
+</plist>
