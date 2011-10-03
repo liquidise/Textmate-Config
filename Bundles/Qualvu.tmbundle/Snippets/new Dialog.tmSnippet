@@ -5,23 +5,23 @@
 	<key>content</key>
 	<string>require_once 'prepend.inc.php';
 
-class $1Panel extends QPanel {
-	const TEMPLATE		= '/qualvu/panel/${2:$1}.tpl';
+class ${TM_FILENAME/(\w+)\..*/$1/} extends QDialogBox {
+	const TEMPLATE		= '/qualvu/dialog/${TM_FILENAME/(\w+)\..*/$1/}.tpl';$0
 
-	public function __construct(\$objParent, \$strControlId = null) {
-		parent::__construct(\$objParent, \$strControlId);
+	public function __construct( \$objParent, \$strControlId = null ) {
+		parent::__construct( \$objParent, \$strControlId );
 		\$this-&gt;Template = __TEMPLATES__ . self::TEMPLATE;
 
-		$0
+		\$this-&gt;HideDialogBox();
 	}
 }</string>
 	<key>name</key>
-	<string>new Panel.class.php</string>
+	<string>new Dialog</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>panel</string>
+	<string>dialog</string>
 	<key>uuid</key>
-	<string>B79B4BCA-F99C-4588-A984-E9D35A91AAE5</string>
+	<string>C0B143A6-4CA6-4016-A627-F3A85AAA6AFF</string>
 </dict>
 </plist>

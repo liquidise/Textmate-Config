@@ -59,9 +59,6 @@ var_suffixes.each do |suffix|
           :mode      =&gt; ENV["TM_COMMENT_MODE#{suffix}"]  ||
                         (ENV["TM_COMMENT_END#{suffix}"] ? "block" : "line"),
           :no_indent =&gt; ENV["TM_COMMENT_DISABLE_INDENT#{suffix}"] }
-  if ENV["TM_MODE"] == "ActionScript 3"
-    com[":start"] = "// "
-    com[":end"] = ""
 
   com[:esc_start], com[:esc_end] = [com[:start], com[:end]].map do |str|
     str.gsub(/[\\|()\[\].?*+{}^$]/, '\\\\\&amp;').
