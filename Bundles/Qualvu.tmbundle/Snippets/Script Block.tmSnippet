@@ -8,8 +8,8 @@ ini_set('include_path', dirname(__FILE__) . '/../../includes');
 ini_set('memory_limit', '256M');
 require_once('prepend.inc.php');
 
-\$fp = fopen(__LOG_DIR__ . '/${TM_FILENAME}.log' , 'a');
-fwrite(\$fp, "\n=====================" . date('r') . "=====================\n");
+\$log = fopen(__LOG_DIR__ . '/${TM_FILENAME}.log' , 'a');
+fwrite(\$log, "\n=====================" . date('r') . "=====================\n");
 
 $0</string>
 	<key>name</key>
