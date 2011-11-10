@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>private function fup$1_Create() {
+	\$this-&gt;fup$1 = new QFileUpload(\$this, QFileUploadType::Image);
+	\$this-&gt;fup$1-&gt;Name = QApplication::Translate("$2");
+	\$this-&gt;fup$1-&gt;Visible = false;
+}</string>
+	<key>name</key>
+	<string>New FileUploader</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>fup</string>
+	<key>uuid</key>
+	<string>AD592427-01CB-467D-BB12-E78BA68E6891</string>
+</dict>
+</plist>
