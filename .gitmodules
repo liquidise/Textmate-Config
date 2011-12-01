@@ -1,0 +1,3 @@
+[submodule "Bundles/Source2.tmbundle"]
+	path = Bundles/Source2.tmbundle
+	url = git://github.com/textmate/source.tmbundle.git

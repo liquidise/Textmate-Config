@@ -6,6 +6,8 @@
 	<string>\$this-&gt;</string>
 	<key>name</key>
 	<string>$this-&gt;</string>
+	<key>scope</key>
+	<string>source.php</string>
 	<key>tabTrigger</key>
 	<string>th-</string>
 	<key>uuid</key>
